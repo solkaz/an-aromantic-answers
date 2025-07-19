@@ -1,0 +1,7 @@
+{
+	"dictionaryDefinitions": [{ "name": "project-dictionary", "path": "./project-dictionary.txt" }],
+	"dictionaries": ["project-dictionary"],
+	"languageSettings": [
+		{ "languageId": "markdown", "dictionaries": ["project-dictionary"] }
+	]
+}

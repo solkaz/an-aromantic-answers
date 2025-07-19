@@ -1,0 +1,40 @@
+#+author: Jeff Held
+#+OPTIONS: num:nil
+#+HTML_DOCTYPE: html5
+#+TITLE: An Aromantic Answers
+
+The purpose of this document is to answer questions that I have
+encountered in real life, as well as some that others may encounter,
+so that I can help guide folks who are curious about aromanticism. I
+want to note that I'm not an authoritative figure in the aromantic
+community, and still work through my identity daily. This is _my_
+experience as an aromantic; it may resonate with others, but I cannot
+claim that it is _every_ aromantic person's experience. I'm a
+cisgender man that's heterosexual, aromantic, and allosexual - I thus
+cannot represent e.g. asexual people or transgender people.
+
+* General
+
+** What does "aromantic" mean?
+Aromantic is a romantic orientation that, per [[https://www.aromanticism.org][AUREA]]:
+
+> most commonly describes people who experience little to no romantic attraction to others.
+
+** What is romantic attraction?
+Great question!
+* The aro community
+
+** Are there pride flags for aromanticism?
+** Is there a day for aromantic people?
+There's Aromantic Visibility Day, which is on June 5th. Additionally, there's also Aromantic Spectrum Awareness Week, which is always on the week following Valentine's Day.
+** How can I learn more?
+* Technical details
+
+** How was this website built?
+This document was written in [[https://orgmode.org/][Org]] with emacs. I then export it with [[https://pandoc.org][~pandoc~]] into an HTML file using a template that I've built.
+
+** Why Org Mode?
+It would've been easier to use Markdown, and that's originally what I did. However, as a true engineer, I felt the need to over-complicate things, though it did give me an excuse to make me use Emacs again. I do also find organizing my thoughts in Org much easier, as you can move headlines around more conveniently than in Markdown.
+
+** Can I see the code?
+Yes! It's available at https://github.com/solkaz/an-aromantic-answers.
