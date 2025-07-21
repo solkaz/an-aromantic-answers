@@ -20,5 +20,7 @@ echo "Building the webpage..."
 pandoc \
   --toc \
   -s README.org \
-  -o index.html
+  -o index.html \
+  --template ./template.html \
+  --standalone
 echo "Webpage built!"

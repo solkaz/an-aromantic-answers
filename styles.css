@@ -1,0 +1,13 @@
+* {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+}
+
+.questions-container {
+  width: 60%;
+  margin: 0 auto;
+}
