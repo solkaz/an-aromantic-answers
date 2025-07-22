@@ -11,3 +11,9 @@ header {
   width: 60%;
   margin: 0 auto;
 }
+
+@media all and (max-width: 600px) {
+  .questions-container {
+    width: 90%;
+  }
+}

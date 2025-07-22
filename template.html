@@ -5,10 +5,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
     <link href="styles.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
     $if(title)$
@@ -16,6 +21,8 @@
       <h1 class="header">$title$</h1>
     </header>
     $endif$
-    <div class="questions-container">$body$</div>
+    <main>
+      <div class="questions-container">$body$</div>
+    </main>
   </body>
 </html>
